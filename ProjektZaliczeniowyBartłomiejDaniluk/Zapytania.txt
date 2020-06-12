@@ -27,7 +27,7 @@ SELECT * FROM uszkodzenia;
 
 SELECT Ulica FROM adres WHERE kod_pocztowy > 20100 ORDER BY Ulica;
 
-SELECT Lokalizacja FROM garaż ORDER BY Miejsca;
+SELECT Lokalizacja FROM garaż WHERE Miejsca > 2 ORDER BY Miejsca;
 
 SELECT Imie, Nazwisko FROM klient WHERE email LIKE '%gmail%' ORDER BY Imie;
 
